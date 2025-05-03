@@ -17,6 +17,10 @@
 	</head>
 
 	<body>
-		
+		<div class="card col-11 bg-primary text-white projectlisting-area">
+				<div class="col-12">
+					<h2>Projects</h2>
+				</div>
+		</div>
 	</body>
 </html>
