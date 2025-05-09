@@ -4,7 +4,14 @@
  */
 
 class ProjectListingArea {
-	
+	/**
+	 * Main constructor for the ProjectListingArea class.
+	 */
+	constructor() {
+		let self = this;
+
+		self.projectListingContainer = $("#projectlisting-area");
+	}
 	/**
 	 * Function to initialize the project listing area.
 	 */
@@ -12,7 +19,7 @@ class ProjectListingArea {
 		let self = this;
 
 		//Show the project listing area
-		$("#projectlisting-area").show();
+		(self.projectListingContainer).show();
 
 		//Render the project list
 		self.renderProjectList();
