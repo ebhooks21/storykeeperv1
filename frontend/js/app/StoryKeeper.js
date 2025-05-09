@@ -18,6 +18,19 @@ class StoryKeeper {
 	start() {
 		let self = this;
 
+		//Hide all areas
+		$(".storykeeper-app-area").hide();
+
+		//Initialize the project listing area
+		self.initProjectListingArea();
+	}
+
+	/**
+	 * Function to initialize the project listing area.
+	 */
+	initProjectListingArea() {
+		let self = this;
+
 
 	}
 }
