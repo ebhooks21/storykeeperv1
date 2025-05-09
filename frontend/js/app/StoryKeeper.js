@@ -31,6 +31,7 @@ class StoryKeeper {
 	initProjectListingArea() {
 		let self = this;
 
-
+		//Show the project listing area
+		$("#projectlisting-area").show();
 	}
 }
