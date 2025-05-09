@@ -23,13 +23,11 @@
 
 	<body>
 		<div class="card col-11 bg-primary text-white projectlisting-area storykeeper-app-area" id="projectlisting-area">
-				<div class="col-12">
-					<h2>Projects</h2>
+			<h2>Projects</h2>
 
-					<div class="card col-12 bg-secondary">
+			<div class="card col-12 bg-secondary projectlistingtable-area">
 
-					</div>
-				</div>
+			</div>
 		</div>
 	</body>
 
