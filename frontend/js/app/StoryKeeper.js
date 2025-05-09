@@ -12,7 +12,6 @@ class StoryKeeper {
 
 		//Create a new ProjectListingArea
 		self.projectListingArea = new ProjectListingArea();
-
 	}
 
 	/**
@@ -27,6 +26,4 @@ class StoryKeeper {
 		//Initialize the project listing area
 		(self.projectListingArea).initProjectListingArea();
 	}
-
-	
 }
