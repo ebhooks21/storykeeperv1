@@ -29,4 +29,8 @@
 				</div>
 		</div>
 	</body>
+
+	<script type="text/javascript">
+		let SK = new StoryKeeper();
+	</script>
 </html>
