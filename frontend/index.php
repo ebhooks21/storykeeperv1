@@ -25,7 +25,7 @@
 		<div class="card col-11 bg-primary text-white projectlisting-area storykeeper-app-area" id="projectlisting-area">
 			<h2>Projects</h2>
 
-			<div class="card col-12 bg-secondary projectlistingtable-area">
+			<div class="card col-11 bg-secondary projectlistingtable-area">
 
 			</div>
 		</div>

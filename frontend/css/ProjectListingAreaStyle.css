@@ -1,8 +1,10 @@
 div.projectlisting-area {
-	height: 100vh;
-	margin: 0 auto;
+	height: 95vh;
+	margin: 2vh auto 0 auto;
 	padding: 0 0;
 }
 	div.projectlisting-area div.projectlistingtable-area {
-		height: 95%;
+		height: 87vh;
+		margin: 0 auto;
+		padding: 0 0
 	}
