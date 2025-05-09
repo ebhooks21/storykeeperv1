@@ -18,6 +18,7 @@
 		<script src="js/jquery-3.7.1.min.js"></script>	
 
 		<script src="js/models/Project.js"></script>
+		<script src="js/models/ProjectListing.js"></script>
 		<script src="js/app/ProjectListingArea.js"></script>
 		<script src="js/app/StoryKeeper.js"></script>
 	</head>
