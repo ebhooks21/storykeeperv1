@@ -34,5 +34,8 @@
 
 	<script type="text/javascript">
 		let SK = new StoryKeeper();
+
+		//Start the application
+		SK.start();
 	</script>
 </html>
