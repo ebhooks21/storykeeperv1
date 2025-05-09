@@ -21,6 +21,11 @@ class ProjectListingArea {
 		//Show the project listing area
 		(self.projectListingContainer).show();
 
+		//Setup the add project button
+		$("#addprojectbtn").on("click", function (e) {
+			self.addProjectBtnOnClick(e);
+		});
+
 		//Render the project list
 		self.renderProjectList();
 	}
@@ -30,5 +35,13 @@ class ProjectListingArea {
 	 */
 	renderProjectList() {
 		let self = this;
+	}
+
+	/**
+	 * Function for the add project button onclick.
+	 */
+	addProjectBtnOnClick(e) {
+		//Stop default propagation
+		e.stopPropagation();
 	}
 }

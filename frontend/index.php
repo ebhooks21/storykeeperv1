@@ -28,7 +28,7 @@
 			<div class="card col-11 bg-secondary projectlistingtable-area">
 
 				<div class="addprojectbtn-area">
-					<button class="btn btn-lg btn-success">Add Project</button>
+					<button class="btn btn-lg btn-success" id="addprojectbtn">Add Project</button>
 				</div>
 			</div>
 		</div>
