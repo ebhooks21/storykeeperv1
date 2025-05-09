@@ -28,6 +28,10 @@
 			<div class="card col-11 bg-secondary projectlistingtable-area">
 
 			</div>
+
+			<div class="col-2 addprojectbtn-area">
+				<button class="btn btn-lg btn-success">Add Project</button>
+			</div>
 		</div>
 	</body>
 
