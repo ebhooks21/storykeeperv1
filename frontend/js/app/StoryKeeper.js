@@ -10,6 +10,9 @@ class StoryKeeper {
 	constructor() {
 		let self = this;
 
+		//Create a new ProjectListingArea
+		self.projectListingArea = new ProjectListingArea();
+
 	}
 
 	/**
