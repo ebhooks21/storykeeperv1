@@ -25,26 +25,8 @@ class StoryKeeper {
 		$(".storykeeper-app-area").hide();
 
 		//Initialize the project listing area
-		self.initProjectListingArea();
+		(self.projectListingArea).initProjectListingArea();
 	}
 
-	/**
-	 * Function to initialize the project listing area.
-	 */
-	initProjectListingArea() {
-		let self = this;
-
-		//Show the project listing area
-		$("#projectlisting-area").show();
-
-		//Render the project list
-		self.renderProjectList();
-	}
-
-	/**
-	 * Function to render the project listing.
-	 */
-	renderProjectList() {
-		let self = this;
-	}
+	
 }
