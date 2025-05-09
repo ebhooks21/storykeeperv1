@@ -2,9 +2,16 @@ div.projectlisting-area {
 	height: 95vh;
 	margin: 2vh auto 0 auto;
 	padding: 0 0;
+	position: relative;
 }
 	div.projectlisting-area div.projectlistingtable-area {
 		height: 87vh;
 		margin: 0 auto;
 		padding: 0 0
+	}
+	div.projectlisting-area div.addprojectbtn-area {
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: 10;
 	}
