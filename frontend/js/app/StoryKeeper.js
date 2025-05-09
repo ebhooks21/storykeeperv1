@@ -8,6 +8,16 @@ class StoryKeeper {
 	 * Main constructor for the StoryKeeper class.
 	 */
 	constructor() {
-		alert("HERE");
+		let self = this;
+
+	}
+
+	/**
+	 * Function for starting the application.
+	 */
+	start() {
+		let self = this;
+
+
 	}
 }
